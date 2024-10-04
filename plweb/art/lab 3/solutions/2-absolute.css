@@ -1,0 +1,40 @@
+:root {
+  --red: #f44336;
+  --green: #4caf50;
+  --blue: #2196f3;
+  --side: 200px;
+}
+
+body {
+  width: 600px;
+  height: 400px;
+  margin: 0;
+}
+
+/* BEGIN (write your solution here) */
+.square-red { 
+  width:var(--side);
+  height:var(--side);
+  background-color:#f44336;
+  position:absolute;
+  top:0px;
+  left:0px;
+
+}
+.square-green { 
+  width:var(--side);
+  height:var(--side);
+  background-color:#4caf50;
+  position:absolute;
+  top:calc(var(--side));
+  left:calc(var(--side));
+  }
+.square-blue { 
+  width:var(--side);
+  height:var(--side);
+  background-color:#2196f3;
+  position:absolute;
+  top: 0px;
+  left:calc(var(--side)*2);
+  }
+/* END */

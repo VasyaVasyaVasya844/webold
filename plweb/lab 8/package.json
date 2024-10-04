@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "dependencies": {
+    "babel-jest": "^29.4.3",
+    "jest": "^29.4.3",
+    "lodash": "^4.17.21",
+    "ts-jest": "^29.0.5"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2"
+  },
+  "name": "js-objects-tasks",
+  "description": "Установка: `npm install`",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}

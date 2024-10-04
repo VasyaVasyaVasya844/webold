@@ -1,0 +1,20 @@
+.quote {
+    display: inline-block;
+    padding: 20px 30px;
+  
+    /* BEGIN (write your solution here) */
+
+    /* END */
+  
+    border: 1px solid #bbb;
+    border-radius: 50px 0;
+  }
+  
+  .quote-author {
+    display: block;
+  
+    /* BEGIN (write your solution here) */
+
+    /* END */
+  }
+  

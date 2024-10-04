@@ -1,0 +1,27 @@
+.circle {
+  /* BEGIN (write your solution here) */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* END */
+
+  width: 300px;
+  height: 300px;
+
+  border-radius: 50%;
+}
+
+.circle-blue {
+  /* BEGIN (write your solution here) */
+  background-color: rgb(0,0,255);
+  z-index: 1;
+  /* END */
+}
+
+.circle-red {
+  /* BEGIN (write your solution here) */
+  background-color: rgb(255,0,0);
+  opacity: 0.5;
+  z-index: 2;
+  /* END */
+}
